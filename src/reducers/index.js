@@ -58,7 +58,7 @@ function calendar(state = initialCalendarState, action) {
         ...state,
         [day]: {
           ...state[day],
-          [meal]: null.
+          [meal]: null,
         }
       }
     default:
